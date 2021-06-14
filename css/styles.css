@@ -7,7 +7,7 @@
     --header-height: 3rem;
 
     /* Colors */
-    --hue-color: 215;
+    --hue-color: 225;
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -138,20 +138,57 @@ img {
     text-align:  center;
 }
 
+/* First layer */
 
 .firstLayer {
-    padding: 100px 0 0;
+    padding: 8.75rem 0 0 0;
     background-color: #e1e5ea;
     color: #40514E;
 }
 
-.lastLayer {
-    background-color: #FAF1E6;
-    padding: 50px 0 20px;
+.logo {
+    width: 70px;
+    position: relative;
+    bottom: 90px;
 }
+
+#profilePic {
+    border-radius: 100%;
+    margin: 25px;
+}
+
+#topCloud, #bottomCloud {
+    width: 100px;
+    position: absolute;
+}
+
+#topCloud {
+    right: 25%;
+    top: 5.5rem;
+}
+
+#bottomCloud {
+    left: 25%;
+    top: 22.5rem;
+}
+
+#seattle {
+    margin: 12.5rem 0 0 0;
+    width: 90%;
+}
+
+/* Second layer */
 
 .secondLayer {
     background-color: snow;
+}
+
+
+/* Last layer */
+
+.lastLayer {
+    background-color: #FAF1E6;
+    padding: 50px 0 20px;
 }
 
 /************************** NAV **************************/
