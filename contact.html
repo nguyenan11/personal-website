@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact An Nguyen</title>
+
+    <!-- CSS Style sheets -->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!-- Favicon icon -->
+    <link rel="icon" href="./images/whiteImposter.ico">
+
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/465fdf736d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="header__contact">
+        <h1>Contact Me <small>Feel free to send me a message</small></h1>
+    </div>
+
+    <section class="contact section">
+        <div class="contact__container container grid">
+            <div>
+                <div class="contact__information">
+                    <i class="fas fa-phone-square-alt contact__icon"></i>
+
+                    <div>
+                        <h3 class="contact__title">My number</h3>
+                        <span class="contact__subtitle">206-446-7238</span>
+                    </div>
+                </div>
+
+                <div class="contact__information">
+                    <i class="fas fa-envelope-open-text contact__icon"></i>
+
+                    <div>
+                        <h3 class="contact__title">Email</h3>
+                        <span class="contact__subtitle">nguyen.an1@northeastern.edu</span>
+                    </div>
+                </div>
+
+                <div class="contact__information">
+                    <i class="fas fa-search-location contact__icon"></i>
+
+                    <div>
+                        <h3 class="contact__title">Location</h3>
+                        <span class="contact__subtitle">Kent, WA</span>
+                    </div>
+                </div>
+            </div>
+
+            <form action="" class="contact__form grid">
+                <div class="contact__inputs grid">
+                    <div class="contact__content">
+                        <label for="name" class="contact__label">Name</label>
+                        <input type="text" class="contact__input" placeholder="Enter name" required="required">
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="email" class="contact__label">Email Address</label>
+                        <input type="email" class="contact__input" placeholder="Enter email" required="required">
+                    </div>
+
+                    <div class="contact__content contact__subject">
+                        <label for="subject" class="contact__label">Subject</label>
+                        <select id="subject" name="subject" class="contact__input" required="required">
+                            <option value="na" selected="">Choose Topic</option>
+                            <option value="cs">Computer Science</option>
+                            <option value="healthcare">Healthcare</option>
+                            <option value="coffee">Grabbing coffee</option>
+                        </select>
+                    </div>
+
+                    <div class="contact__content contact__message">
+                        <label for="message" class="contact__label">Message</label>
+                        <textarea cols="0" rows="7" class="contact__input"></textarea>
+                    </div>
+
+                    <div>
+                        <a type="submit" class="button button--flex">
+                            Send Message <i class="fas fa-arrow-circle-right button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+</body>
+</html>

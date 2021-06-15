@@ -205,6 +205,7 @@ img {
 
 .secondLayer {
     background-color: snow;
+    padding-bottom: 20px;
 }
 
 /* About */
@@ -242,6 +243,12 @@ img {
 .about__button {
     display: flex;
     justify-content: center;
+}
+
+/* Contact */
+
+#contact h2, #contact p {
+    margin-bottom: var(--mb-1)
 }
 
 
@@ -360,6 +367,73 @@ img {
     align-items: center;
 }
 
+/************************** Contact.html **************************/
+
+.header__contact {
+    padding: 24px;
+    background-color: #eeeeee;
+}
+
+.header__contact h1 {
+    color: var(--first-color);
+    padding: 24px;
+    padding-left: 50px;
+}
+
+.header__contact h1 small {
+    font-size: 24px;
+    padding: 0 20px;
+    color: darkgray;
+    font-weight: 400;
+}
+
+.contact__container {
+    row-gap: 3rem;
+}
+
+.contact__information {
+    display: flex;
+    margin-bottom: var(--mb-2);
+}
+
+.contact__icon {
+    font-size: 2rem;
+    color: var(--first-color);
+    margin-right: var(--mb-0-75);
+}
+
+.contact__title {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+}
+
+.contact__subtitle {
+    font-size: var(--small-font-size);
+    color: var(--text-color-light);
+}
+
+.contact__content {
+    background-color: var(--input-color);
+    border-radius: 0.5rem;
+    padding: 0.75rem 1rem 0.25rem;
+}
+
+.contact__label {
+    font-size: var(--smaller-font-size);
+    color: var(--title-color);
+}
+
+.contact__input {
+    width: 100%;
+    background-color: var(--input-color);
+    color: var(--text-color);
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    border: none;
+    outline: none;
+    padding: 0.25rem 0.5rem 0.5rem 0;
+}
+
 /************************** Company Logo **************************/
 
 .companyLogo {
@@ -393,8 +467,12 @@ img {
 
 /* medium device */
 @media screen and (min-width: 568px) {
-    .about__container {
+    .about__container, .contact__container {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .header__contact {
+        text-align: center;
     }
 }
 
@@ -444,7 +522,7 @@ img {
         margin-left: auto;
     }
 
-    .about__container {
+    .about__container, .contact__container {
         column-gap: 5rem;
         margin: auto;
     }
