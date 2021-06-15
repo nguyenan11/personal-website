@@ -20,6 +20,7 @@
     --input-color: hsl(var(--hue-color), 70%, 96%);;
     --body-color: hsl(var(--hue-color), 60%, 99%);;
     --container-color: #FFF;
+    --shadow-color: rgba(133, 66, 66, 0.15);
 
     /* Font and typography */
     --body-font: 'Poppins', sans-serif;
@@ -154,7 +155,7 @@ img {
 
 .firstLayer {
     padding: 8.75rem 0 0 0;
-    background-color: #e1e5ea;
+    background-color: var(--body-color);
     color: #40514E;
 }
 
@@ -245,10 +246,39 @@ img {
     justify-content: center;
 }
 
-/* Contact */
+/* Skills */
+.skill__table {
+    margin: 25px auto;
+    border-collapse: collapse;
+    font-size: var(--normal-font-size);
+    text-align: justify;
+    min-width: 400px;
+    box-shadow: 0 0 20px var(--shadow-color);
+}
+
+.skill__table thead tr {
+    background-color: var(--first-color-lighter);
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-semi-bold);
+    margin: 0;
+}
+
+.skill__table th, .skill__table td {
+    padding: 12px 15px;
+}
+
+.skill__table tbody tr:nth-of-type(even) {
+    background-color: #e1e5ea;
+}
+
+.skill__table tbody tr:last-of-type {
+    border-bottom: 2px solid var(--first-color-lighter);
+}
+
+/* Contact within index.html, CSS for contact.html is below */
 
 #contact h2, #contact p {
-    margin-bottom: var(--mb-1)
+    margin-bottom: var(--mb-1);
 }
 
 
@@ -295,7 +325,7 @@ img {
         width: 100%;
         background-color: var(--body-color);
         padding: 2rem 1.5rem 4rem;
-        box-shadow: 0 -1px 4px rgba(0,0,0,.15);
+        box-shadow: 0 -1px 4px var(--shadow-color);
         border-radius: 1.5rem 1.5rem 0 0;
         transition: 0.3s;
     }
@@ -455,7 +485,7 @@ img {
     }
 
     .nav__menu {
-        padding: 2rem, 0.25rem 4rem;
+        padding: 2rem 0.25rem 4rem;
     }
 
     .nav__list {
