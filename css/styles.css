@@ -21,6 +21,9 @@
     --body-color: hsl(var(--hue-color), 60%, 99%);;
     --container-color: #FFF;
     --shadow-color: rgba(133, 66, 66, 0.15);
+    --second-layer-color: snow;
+    --table-even-row: #e1e5ea;
+    --footer-color: #FAF1E6;
 
     /* Font and typography */
     --body-font: 'Poppins', sans-serif;
@@ -67,6 +70,23 @@
         --smaller-font-size: 0.813rem;
     }
 }
+
+/************************** Variables for Dark theme **************************/
+
+body.dark-theme {
+    --first-color-second: hsl(var(--hue-color), 30%, 8%);
+    --first-color-lighter: #6272a4;
+    --title-color: hsl(var(--hue-color), 8%, 95%);
+    --text-color: hsl(var(--hue-color), 8%, 75%);;
+    --input-color: hsl(var(--hue-color), 29%, 16%);;
+    --body-color: hsl(var(--hue-color), 28%, 12%);;
+    --container-color: hsl(var(--hue-color), 29%, 16%);;
+    --shadow-color: rgba(133, 66, 66, 0.15);
+    --second-layer-color: #282a36;
+    --table-even-row: #44475a;
+    --footer-color: #3B14A7;
+}
+
 
 /************************** Base **************************/
 
@@ -205,7 +225,7 @@ img {
 /************************** Second layer **************************/
 
 .secondLayer {
-    background-color: snow;
+    background-color: var(--second-layer-color);
     padding-bottom: 20px;
 }
 
@@ -268,11 +288,16 @@ img {
 }
 
 .skill__table tbody tr:nth-of-type(even) {
-    background-color: #e1e5ea;
+    background-color: var(--table-even-row);
 }
 
 .skill__table tbody tr:last-of-type {
     border-bottom: 2px solid var(--first-color-lighter);
+}
+
+.skill__icon {
+    float: right;
+    padding-left: 10px;
 }
 
 .language {
@@ -305,9 +330,50 @@ img {
 /* Last layer */
 
 .lastLayer {
-    background-color: #FAF1E6;
-    padding: 50px 0 20px;
+    background-color: var(--footer-color);
+    padding: 20px 0 20px;
+    text-align: left;
 }
+
+.companyLogo {
+    color: var(--first-color-alt);
+    margin: 0 10px;
+}
+
+.leftLogo {
+    padding-left: 30px;
+}
+
+.companyLogo:hover {
+    color: var(--text-color-light);
+}
+
+.lastLayer span {
+    float: right;
+    padding-right: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-size: var(--h2-font-size);
+    color: var(--first-color);
+}
+
+/************************** Button dark/ light **************************/
+
+.nav__btns {
+    display: flex;
+    align-items: center;
+}
+
+.change-theme {
+    font-size: 1.25rem;
+    color: var(--title-color);
+    margin-right: var(--mb-1);
+    cursor: pointer;
+}
+
+.change-theme:hover {
+    color: var(--first-color);
+}
+
 
 /************************** NAV **************************/
 
@@ -482,17 +548,6 @@ img {
     border: none;
     outline: none;
     padding: 0.25rem 0.5rem 0.5rem 0;
-}
-
-/************************** Company Logo **************************/
-
-.companyLogo {
-    color: var(--first-color-alt);
-    text-decoration: none;
-}
-
-.companyLogo:hover {
-    color: var(--text-color-light);
 }
 
 /************************** Media Queries **************************/
