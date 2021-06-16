@@ -275,6 +275,26 @@ img {
     border-bottom: 2px solid var(--first-color-lighter);
 }
 
+.language {
+    position: relative;
+}
+
+.popup {
+    text-align: left;
+    display: none;
+    position: absolute; 
+    z-index: var(--z-fixed);
+    border: 1px;
+    background-color: var(--container-color);
+    border: 1px solid var(--first-color);
+    padding: 3px;
+    color: var(--first-color);
+}
+
+.language:hover .popup {
+    display: block;
+}
+
 /* Contact within index.html, CSS for contact.html is below */
 
 #contact h2, #contact p {
@@ -292,7 +312,7 @@ img {
 /************************** NAV **************************/
 
 .nav {
-    max-width: 968px;
+    max-width: 992px;
     height: var(--header-height);
     display: flex;
     justify-content: space-between;
@@ -552,7 +572,7 @@ img {
         margin-left: auto;
     }
 
-    .about__container, .contact__container {
+    .about__container, .contact__container, .nav {
         column-gap: 5rem;
         margin: auto;
     }
