@@ -320,6 +320,47 @@ img {
     display: block;
 }
 
+/* Courses */
+
+.courses__row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.courses__logo-left {
+    width: 35%;
+    float: left;
+    margin: 0 30px 0 0;
+}
+
+.courses__logo-right {
+    width: 35%;
+    float: right;
+    margin: 0 0 0 30px;
+}
+
+.course__subtitle, .course__description {
+    display: block;
+}
+
+.course__title {
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-semi-bold);
+    color: var(--text-color);
+}
+
+.course__subtitle {
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-medium);
+    color: var(--title-color);
+}
+
+.course__description {
+    font-size: var(--smaller-font-size);
+}
+
 /* Contact within index.html, CSS for contact.html is below */
 
 #contact h2, #contact p {
