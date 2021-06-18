@@ -329,6 +329,10 @@ img {
     line-height: 2;
 }
 
+#align__row {
+    text-align: center;
+}
+
 .courses__logo-left {
     width: 35%;
     float: left;
