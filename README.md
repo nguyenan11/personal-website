@@ -25,12 +25,19 @@ Click on any of the element in nav bar will direct the user to 1 of 6 specific H
 
 * About section
 
-<img src="/readme_images/aboutFull.png" width=70%> <img src="/readme_images/aboutSmall.png" width=30%>
+<img src="/readme_images/aboutFull.png" width=70%> <img src="/readme_images/aboutSmall.png" width=20%>
 
 * Course section
 
-<img src="/readme_images/courseFull.png" width=70%> <img src="/readme_images/courseSmall.png" width=30%>
+<img src="/readme_images/courseFull.png" width=70%> <img src="/readme_images/courseSmall.png" width=20%>
 
+* Contact Me section - where user can click on the button and be redirected to separate page. 
+
+<img src="readme_images/contact.png"> 
+
+On `contact.html` - User can also choose to go back to the main page with a button at bottom - left
+
+<img src="/readme_images/contactFull.png" width=70%> <img src="/readme_images/contactSmall.png" width=20%>
 
 
 
