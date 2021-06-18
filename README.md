@@ -42,7 +42,7 @@ On `contact.html` - User can also choose to go back to the main page with a butt
 
 #### External Links
 
-On the bottom of the page, there are 3 logos of *GitHub*, *LinkedIn* and *Piazza* where user can click on to go to.
+On the bottom of the page, there are 3 logos of *GitHub*, *LinkedIn* and *Piazza* where user can click on to go to. Clicking on these pages will open a new browser tab.
 
 <img src="readme_images/footer.png"> 
 
