@@ -1,6 +1,6 @@
 # PersonalWebsite-AnNguyen
 
-Click on this [link]() to view site on Heroku
+Click on this [link](http://an-nguyen-11.herokuapp.com/) to view site on Heroku
 
 ## Assignment components
 
@@ -12,7 +12,8 @@ There is a landing page of `index.html` and 1 additional page of `contact.html`.
 
 Everything is easy to navigate with navigation bar: it has 6 elements of *Home*, *About*, *Skills*, *Courses*, *Portfolio* and *Contact Me*.
 * When site is on desktop or any large device, nav bar is at the header position.
-<img src="readme_images/homeFull.png"> 
+<img src="readme_images/homeFull.png">
+
 > Visual of Home section
 
 * When window is resized to smaller screen, nav bar is at footer position, and it has a nice little feature of **JavaScript** for user to toggle the bar.
@@ -37,7 +38,7 @@ Click on any of the element in nav bar will direct the user to 1 of 6 specific H
 
 On `contact.html` - User can also choose to go back to the main page with a button at bottom - left
 
-<img src="/readme_images/contactFull.png" width=70%> <img src="/readme_images/contactSmall.png" width=25%>
+<img src="/readme_images/contactFull.png" width=70%> <img src="/readme_images/contactSmall.png" width=28%>
 
 #### External Links
 
@@ -66,15 +67,15 @@ Several components across the site:
 
 #### Responsiveness
 
-I hope my illustration through pictures in this README fulfills this requirement 😆
+I hope my illustration through pictures in this README explains this requirement 😆
 
 ## Resources
 
-Among us [favicons](https://www.iconfinder.com/icons/7033730/among_us_icon)
-Dark color/ theme inspired from [Dracula Theme](https://draculatheme.com/contribute)
-[Emoji](https://emojipedia.org/)
-[Gif](https://giphy.com/)
-Google [Fonts](https://fonts.google.com/)
-Small [icons](https://fontawesome.com/) across the site
+* Among us [favicons](https://www.iconfinder.com/icons/7033730/among_us_icon)
+* Dark color/ theme inspired from [Dracula Theme](https://draculatheme.com/contribute)
+* [Emoji](https://emojipedia.org/)
+* [Gif](https://giphy.com/)
+* Google [Fonts](https://fonts.google.com/)
+* Small [icons](https://fontawesome.com/) across the site
 
 And for any other pictures, it's our friendly google.com
