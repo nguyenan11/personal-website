@@ -361,6 +361,20 @@ img {
     font-size: var(--smaller-font-size);
 }
 
+/* Portfolio */
+
+.work__img {
+    width: 8%;
+    margin: 0 30px;
+    border-radius: 100%;
+}
+
+.portfolio__footer {
+    display: block;
+    margin-top: var(--mb-2);
+    margin-bottom: var(--mb-3);
+}
+
 /* Contact within index.html, CSS for contact.html is below */
 
 #contact h2, #contact p {
