@@ -46,9 +46,9 @@ if (selectedTheme) {
 // Manually activate / deactivate theme with button
 $(themeButton).click(function() {
     // Add / remove the dark theme and icon
-    $(document.body).toggle(darkTheme)
-    $(themeButton).toggle(iconTheme)
+    $(document.body).toggleClass(darkTheme)
+    $(themeButton).toggleClass(iconTheme)
     // Save theme and current icon of user's choice
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
-});
+})

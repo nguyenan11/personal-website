@@ -605,6 +605,10 @@ img {
     padding: 0.25rem 0.5rem 0.5rem 0;
 }
 
+#go-back-btn:hover .popup {
+    display: inline;
+}
+
 /************************** Media Queries **************************/
 
 /* small devices */
