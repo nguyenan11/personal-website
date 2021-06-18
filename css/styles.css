@@ -686,7 +686,7 @@ img {
         margin-left: auto;
     }
 
-    .about__container, .contact__container, .nav {
+    .about__container, .contact__container, .courses__container, .nav {
         column-gap: 5rem;
         margin: auto;
     }
