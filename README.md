@@ -15,7 +15,7 @@ Everything is easy to navigate with navigation bar: it has 6 elements of *Home*,
 ![Home section](/readme_images/homeFull.png)
 > Visual of Home section
 
-* When window is resized to smaller screen, nav bar is at footer position, and it will have a nice little feature of **JavaScripts** for user to toggle the bar.
+* When window is resized to smaller screen, nav bar is at footer position, and it has a nice little feature of **JavaScripts** for user to toggle the bar.
 
 <img src="/readme_images/homeBarUp.png" width=40%> <img src="/readme_images/homeBarDown.png" width=40%>
 
@@ -39,7 +39,17 @@ On `contact.html` - User can also choose to go back to the main page with a butt
 
 <img src="/readme_images/contactFull.png" width=70%> <img src="/readme_images/contactSmall.png" width=20%>
 
+#### External Links
 
+On the bottom of the page, there are 3 logos of *GitHub*, *LinkedIn* and *Piazza* where user can click on to go to.
+
+<img src="readme_images/footer.png"> 
+
+#### HTML table
+
+Skills section is implemented with a HTML table and CSS elements for visualization (color, spacing, border, shadow, ...)
+
+<img src="/readme_images/skillFull.png" width=70%> <img src="/readme_images/skillSmall.png" width=20%>
 
 
 Favicons are from: https://www.iconfinder.com/icons/7033730/among_us_icon
