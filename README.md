@@ -1,8 +1,10 @@
-# PersonalWebsite-AnNguyen
+# An Nguyen's Personal Website
+
+* Improved version from web-development repo
 
 Click on this [link](http://an-nguyen-11.herokuapp.com/) to view site on Heroku
 
-## Assignment components
+## Website components
 
 #### Landing page
 
@@ -67,7 +69,7 @@ Several components across the site:
 
 #### Responsiveness
 
-I hope my illustration through pictures in this README explains this requirement 😆
+I hope my illustration through pictures in this README explains this transition between large/ medium or mobile screen.
 
 ## Resources
 
