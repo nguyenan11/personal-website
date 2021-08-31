@@ -1,6 +1,8 @@
 # An Nguyen's Personal Website
 
 * Improved version from web-development repo
+* Rework on projects and portfolio coming soon
+* Update on resume is in process
 
 Click on this [link](http://an-nguyen-11.herokuapp.com/) to view site on Heroku
 
@@ -80,4 +82,4 @@ I hope my illustration through pictures in this README explains this transition 
 * Google [Fonts](https://fonts.google.com/)
 * Small [icons](https://fontawesome.com/) across the site
 
-And for any other pictures, it's our friendly google.com
+And for any other pictures, it's our friend google.com

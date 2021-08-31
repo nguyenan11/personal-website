@@ -52,35 +52,35 @@
                 </div>
             </div>
 
-            <form action="" class="contact__form grid">
+            <form class="contact__form grid">
                 <div class="contact__inputs grid">
                     <div class="contact__content">
                         <label for="name" class="contact__label">Name</label>
-                        <input type="text" class="contact__input" placeholder="Enter name" required="required">
+                        <input type="text" id="contact-name" class="contact__input" placeholder="Enter name" required="required">
                     </div>
 
                     <div class="contact__content">
                         <label for="email" class="contact__label">Email Address</label>
-                        <input type="email" class="contact__input" placeholder="Enter email" required="required">
+                        <input type="email" id="contact-email" class="contact__input" placeholder="Enter email" required="required">
                     </div>
 
                     <div class="contact__content contact__subject">
                         <label for="subject" class="contact__label">Subject</label>
                         <select id="subject" name="subject" class="contact__input" required="required">
-                            <option value="na" selected="">Choose Topic</option>
-                            <option value="cs">Computer Science</option>
-                            <option value="healthcare">Healthcare</option>
-                            <option value="coffee">Grabbing coffee</option>
+                            <option value="None" selected="">Choose Topic</option>
+                            <option value="Computer Science">Computer Science</option>
+                            <option value="Healthcare">Healthcare</option>
+                            <option value="Coffee">Grabbing coffee</option>
                         </select>
                     </div>
 
                     <div class="contact__content contact__message">
                         <label for="message" class="contact__label">Message</label>
-                        <textarea cols="0" rows="7" class="contact__input"></textarea>
+                        <textarea cols="0" rows="7" class="contact__input" id="contact-msg" required="required"></textarea>
                     </div>
 
                     <div>
-                        <a type="submit" class="button button--flex">
+                        <a type="button" value="click" id="contact-btn" class="button button--flex">
                             Send Message <i class="fas fa-arrow-circle-right button__icon"></i>
                         </a>
                     </div>
@@ -92,6 +92,8 @@
     <a href="index.html" id="go-back-btn"><i class="far fa-2x fa-hand-point-left companyLogo leftLogo"></i>
         <span class="popup">Go back to home page</span>
     </a>
-    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="javascripts/contact.js" charset="utf-8"></script>
 </body>
 </html>
