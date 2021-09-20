@@ -1,10 +1,14 @@
 # An Nguyen's Personal Website
 
-* Improved version from web-development repo
-* Rework on projects and portfolio coming soon
-* Update on resume is in process
-
 Click on this [link](http://an-nguyen-11.herokuapp.com/) to view site on Heroku
+
+## Quick overview
+* Improved version from web-development repo
+* Projects mentioned on this website and resume:
+    * [Payplicity](https://payplicity-ui.herokuapp.com/) (in a private repo, please message me for any inquiry/ questions!)
+    * [Checker Broad game]() (Also in a private repo, *coming soon*)
+    * [Rolling dices games](https://nguyenan11.github.io/web-development/rolling-dice-game/dice.html)
+    * [Simon game](https://nguyenan11.github.io/web-development/simon-game/)
 
 ## Website components
 
@@ -75,7 +79,7 @@ I hope my illustration through pictures in this README explains this transition 
 
 ## Resources
 
-* Among us [favicons](https://www.iconfinder.com/icons/7033730/among_us_icon)
+* Among us [favicons](https://www.iconfinder.com/icons/7033730/among_us_icon) - *imposter* as in *imposter syndrome*
 * Dark color/ theme inspired from [Dracula Theme](https://draculatheme.com/contribute)
 * [Emoji](https://emojipedia.org/)
 * [Gif](https://giphy.com/)

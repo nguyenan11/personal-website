@@ -318,6 +318,17 @@ img {
     display: block;
 }
 
+/* Other libraries and frameworks */
+
+#skills h5 {
+    padding-top: 2rem;
+}
+
+.framework__icon {
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
 /* Courses */
 
 .courses__row {
