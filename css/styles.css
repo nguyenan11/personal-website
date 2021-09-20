@@ -193,7 +193,6 @@ img {
 
 .logo {
     width: 70px;
-    position: relative;
     bottom: 90px;
 }
 
@@ -272,7 +271,7 @@ img {
     border-collapse: collapse;
     font-size: var(--normal-font-size);
     text-align: justify;
-    min-width: 400px;
+    min-width: 300px !important;
     box-shadow: 0 0 20px var(--shadow-color);
 }
 
